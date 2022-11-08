@@ -1,4 +1,4 @@
-#If you do not have it already, you will need to download part of Powershell's community extension: PEHeader available here https://www.powershellgallery.com/packages/PowerSploit/1.0.0.0/Content/PETools%5CGet-PEHeader.ps1. Create a ps1 file with this text and then import it with Import-Module ./<nameforyourfile>.ps1
+# If you do not have it already, you will need to download part of Powershell's community extension: PEHeader available here https://www.powershellgallery.com/packages/PowerSploit/1.0.0.0/Content/PETools%5CGet-PEHeader.ps1. Create a ps1 file with this text and then import it with Import-Module ./<nameforyourfile>.ps1
 
 [int]$processId = Read-Host -prompt 'Please enter a valid Process ID (PID)' 
 
